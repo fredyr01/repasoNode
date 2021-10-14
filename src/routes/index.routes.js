@@ -6,7 +6,7 @@ const controller = require('../controllers/index.controller');
 //*  response con la función send se envia un mensaje al cargar la página
 //* No hay problema por las tildes, ya tiene utf-8
 
-router.get('/', controller.index );
+router.get('/', controller.index);
 
 //* Todo lo que esté en router se exporte y se pueda
 //* usar en otros archivos

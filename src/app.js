@@ -17,6 +17,7 @@ app.set('views', path.join(__dirname,'views'));
 const routes = require('./routes/index.routes');
 app.use(routes);
 
+
 //* Static files
 //* path.join me une __dirname con '../public'
 app.use(express.static(path.join(__dirname,'../public')));
